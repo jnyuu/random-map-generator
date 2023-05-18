@@ -221,8 +221,7 @@ class Board:
         for row in range(math.floor(self.height/16)):
             x = [0] * math.floor(self.width/16)
             self.board.append(x)
-        print(self.board)
-       
+        # print(self.board)
         labelErrorVar.set("")
       
     def generateCityTiles(self,spawnchance):
@@ -240,4 +239,3 @@ class Board:
         
 if __name__ == "__main__":
     application = Application()
-

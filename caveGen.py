@@ -194,7 +194,6 @@ class Board:
         try:
             if(int(widthVar.get()) < 25 or int(widthVar.get()) > 300 or int(heightVar.get()) < 25 or int(heightVar.get()) > 300 or float(spawnChanceVar.get())<0 or float(spawnChanceVar.get())>100):
                 labelErrorVar.set("ERROR - WRONG VALUES")
-
                 return
             else:
                 self.width = int(widthVar.get())
@@ -203,13 +202,12 @@ class Board:
 
         except:
             labelErrorVar.set("ERROR OCCURED")
-
             return
 
         for row in range(self.height):
             x = [0] * self.width
             self.board.append(x)
-        print(len(self.board))
+        # print(len(self.board))
     
         for row in range(5,self.height-5):
             for col in  range(5,self.width-5): 

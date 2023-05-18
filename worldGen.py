@@ -429,7 +429,7 @@ class Board:
         for row in range(self.height):
             x = [0] * self.width
             self.board.append(x)
-        print(len(self.board))
+        # print(len(self.board))
     
         for row in range(5,self.height-5):
             for col in  range(5,self.width-5): 
