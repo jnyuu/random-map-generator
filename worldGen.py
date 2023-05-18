@@ -109,8 +109,8 @@ class Application:
         # self.buttonPresetWorldLargeLakesContinent = Tk.Button(master = self.layoutFrame, text = 'Generate map : continent with large lakes', command =lambda:  self.generatePresets("continentLargeLakes")).grid(row=1, column=4)
         # self.buttonPresetWorldMediumLakesContinent = Tk.Button(master = self.layoutFrame, text = 'Generate map : continent with medium lakes', command =lambda:  self.generatePresets("continentMediumLakes")).grid(row=1, column=5)
         self.buttonPresetWorldContinent = Tk.Button(master = self.layoutFrame, text = 'Generate map : CONTINENT', command = lambda: self.generatePresets("continent")).grid(row=1, column=6)
-        self.buttonGenerateCity = Tk.Button(master=self.layoutFrame, text = 'Generate city', command=  self.callGenerateCity).grid(row=3, column=1)
-        self.buttonGenerateCave = Tk.Button(master=self.layoutFrame, text = 'Generate cave', command=  self.callGenerateCave).grid(row=3, column=2)
+        self.buttonGenerateCity = Tk.Button(master=self.layoutFrame, text = 'Insert city marker', command=  self.callGenerateCity).grid(row=3, column=1)
+        self.buttonGenerateCave = Tk.Button(master=self.layoutFrame, text = 'Insert cave marker', command=  self.callGenerateCave).grid(row=3, column=2)
 
         # ---------------------------------------
         # CREATE TK GENERAL BUTTONS
