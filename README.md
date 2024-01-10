@@ -1,5 +1,9 @@
 # Cellular automata map generator
 
+
+https://github.com/jnyuu/random-map-generator/assets/43552134/75c824d5-6d49-4ade-a314-b09d07c4579d
+
+
 A simple program that you can generate 2d terrain maps for games with
 
 ## Launching the world map generator
